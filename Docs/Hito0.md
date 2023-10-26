@@ -4,11 +4,11 @@
 
 2.- En la página de inicio, verás un formulario de registro. Debes proporcionar la siguiente información:
 
-	- Username (Nombre de usuario): Elige un nombre de usuario único que quieras utilizar en GitHub. GitHub te proporcionará sugerencias si el nombre que ingresaste ya está en uso.
+ - Username (Nombre de usuario): Elige un nombre de usuario único que quieras utilizar en GitHub. GitHub te proporcionará sugerencias si el nombre que ingresaste ya está en uso.
 
-	- Email address (Dirección de correo electrónico): Proporciona una dirección de correo electrónico válida que utilizarás para fines de recuperación de cuenta y comunicación con GitHub.
+ - Email address (Dirección de correo electrónico): Proporciona una dirección de correo electrónico válida que utilizarás para fines de recuperación de cuenta y comunicación con GitHub.
 
-	- Password (Contraseña): Crea una contraseña segura. GitHub te proporcionará recomendaciones para una contraseña segura.
+ - Password (Contraseña): Crea una contraseña segura. GitHub te proporcionará recomendaciones para una contraseña segura.
 
 3.- Recibirás un correo electrónico de confirmación en la dirección de correo electrónico que proporcionaste. Abre el correo electrónico y sigue las instrucciones para verificar tu dirección de correo electrónico y activar tu cuenta de GitHub.
 
@@ -18,7 +18,7 @@
 
 Para crear un repositorio en GitHub, podemos ir a la sección de repositorios de nuestro perfil y hacer el click en el botón de "New". 
 
-![Boton New](imgs/BotonNew.png)
+![Boton New](img/BotonNew.png)
 
 Se abrirá la página "Nuevo repositorio". Aquí deberás proporcionar la información básica para tu nuevo repositorio:
 
@@ -30,11 +30,11 @@ Se abrirá la página "Nuevo repositorio". Aquí deberás proporcionar la inform
 
 Inicializar este repositorio con: Puedes optar por inicializar tu repositorio con un archivo "README", un archivo "gitignore" y/o una licencia. Estos son opcionales y puedes añadirlos más tarde si lo prefieres.
 
-![Creando nuevo repositorio](imgs/Create_new_Repository.png)
+![Creando nuevo repositorio](img/Create_new_Repository.png)
 
 Al crear el nuevo repositorio tendremos creado el primer archivo README.md
 
-![Nuevo repositorio](imgs/NuevoRepositorio.png)
+![Nuevo repositorio](img/NuevoRepositorio.png)
 
 
 # Clonar Repositorio 
@@ -43,11 +43,11 @@ Para Clonar un repositorio de GitHub en un sistema Linux, puedes utilizar la lí
 
 1.- Abre una terminal en tu sistema Linux. Puedes buscar "Terminal" en el menú de aplicaciones o usar un atajo de teclado, como Ctrl+Alt+T y nos dirigimos a la carpeta en la cual se trabajara
 
-![Terminal](imgs/Terminal.png)
+![Terminal](img/Terminal.png)
 
 2.- Luego, utiliza el comando git clone seguido de la URL del repositorio que deseas descargar. Puedes encontrar la URL en la página del repositorio en GitHub. 
 
-![Clonar Repositorio](imgs/Clonar.png)
+![Clonar Repositorio](img/Clonar.png)
 
 3.- Git descargará el repositorio en tu sistema. Dependiendo del tamaño del repositorio y de tu conexión a Internet, este proceso puede llevar unos momentos.
 

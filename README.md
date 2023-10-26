@@ -9,8 +9,8 @@ Sistema personalizado para la gestión y control de activos fijos, para la optim
 
 ## Hito 0. Introducción.
 
-Para la parte del proyecto se desarrollara un sistema personalizado para la gestión y control de activos fijos, el cual se desarrollara en html y javascript para el frondent, y PHP para la parte de backend.
+Para la parte del proyecto se desarrollara un sistema personalizado para la gestión y control de activos fijos, el cual se desarrollara en html y javascript para el frondend, y PHP para la parte de backend.
 Este sistema ayudara a tener el control de los activos fijos de una Universidad Católica Santa María en la Ciudad de Arequipa - Perú.
 
-Iniciaremos con la [configuración y creación del repositorio en Github](https://github.com/gabrielacampoverde/CC_Gabriela/docs/Hito0.md).
+ - Iniciaremos con la [configuración y creación del repositorio en Github](https://github.com/gabrielacampoverde/CC_Gabriela/blob/main/Docs/Hito0.md).
 
