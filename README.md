@@ -16,7 +16,7 @@ Este sistema ayudara a tener el control de los activos fijos de una Universidad 
  
  - [Descripción del proyecto](https://github.com/gabrielacampoverde/CC_Gabriela/blob/main/Docs/Hito0_ExplicacionProyecto.md).
 
-## Hito 1. Elaboración del Código, HUs e hitos
+## Hito 1. Elaboración del Código, HUs e Hitos
 
 La documentacion del [Hito 1](https://github.com/gabrielacampoverde/CC_Gabriela/blob/main/Docs/Hito1.md), se definira el proyecto en el cual se va a trabajar, de la misma forma se explicara el lenguaje de programación, framework y arquitectura que se va a usar en el proyecto, creando historias de usuarios e hitos con el objetivo de descubrir. 
 
