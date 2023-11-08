@@ -93,7 +93,7 @@ Para el desarrollo del proyecto lo dividiremos en tres partes el frondend, backe
   
   9.- El sistema ha creado automáticamente una base de datos correspondiente al usuario “postgres”. Sin embargo, tu servidor PostgreSQL puede trabajar con varias bases de datos al mismo tiempo. Crea una nueva base de datos con el siguiente comando, en el cual puedes cambiar “example” por el nombre que quieras:
 
-  ![Inst_PostgreSQL_9](img/Inst_PostgreSQL_ss9.png)
+  ![Inst_PostgreSQL_9](img/Inst_PostgreSQL_9.png)
 
   
 ## Hitos del proyecto
