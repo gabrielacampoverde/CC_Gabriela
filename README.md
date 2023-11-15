@@ -20,9 +20,9 @@ Este sistema ayudara a tener el control de los activos fijos de una Universidad 
 
 La documentacion del [Hito 1](https://github.com/gabrielacampoverde/CC_Gabriela/blob/main/Docs/Hito1.md), se definira el proyecto en el cual se va a trabajar, de la misma forma se explicara el lenguaje de programación, framework y arquitectura que se va a usar en el proyecto, creando historias de usuarios e hitos con el objetivo de descubrir. 
 
-## Hito 2. Test
+## Hito 2. Test, Librerias y Bibliotecas
 
-En el [Hito 2](https://github.com/gabrielacampoverde/CC_Gabriela/blob/main/Docs/Hito2.md), se describira  la justificación del framework de trsts, librerias y bibliotecas que se usen en el proyecto, 
+En el [Hito 2](https://github.com/gabrielacampoverde/CC_Gabriela/blob/main/Docs/Hito2.md), se describira  la justificación de librerias y bibliotecas que se usen en el proyecto, 
 
 Tambien se explicara la creación de los primeros test.
 
