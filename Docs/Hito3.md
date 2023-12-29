@@ -57,7 +57,7 @@ Asi quedaria el archivo [Dockerfile](https://github.com/gabrielacampoverde/CC_Ga
 
 ### Archivo docker-compose.yml
 
-Luego pasaremos a la configuración de [docker-compose.yml](https://github.com/gabrielacampoverde/CC_Gabriela/blob/main/ERP-Inventario/docker-compose.yml).
+Luego pasaremos a la configuración de docker-compose.yml
 
 - El servicio php-apache utiliza la imagen oficial de PHP con Apache y expone el puerto 80.
 
