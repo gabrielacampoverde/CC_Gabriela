@@ -73,18 +73,17 @@ Luego pasaremos a la configuración de [docker-compose.yml](https://github.com/g
 
 ![Hito3_15](img/Hito3_15.png)
 
-Para comprobar la configuración de postgres con pgAdmin ejecutamos el siguiente comando:
+## Ejecución del contenedor
+
+Para comprobar la configuración Ejecución del contenedor con el siguiente comando:
 
 ![Hito3_16](img/Hito3_16.png)
 
-Luego en un navegador probaremos el localhost:8081, en el cual pondremos el usuario y contraseña que colocamos en el archivo docker-compose.yml
+Primero comprobaremos la ejecución de postgres y psAdmin, así que en un navegador probaremos el localhost:8081, en el cual pondremos el usuario y contraseña que colocamos en el archivo docker-compose.yml, como a continuación se ven en las imagenes:
 
 ![Hito3_17](img/Hito3_17.png)
 
 ![Hito3_18](img/Hito3_18.png)
-
-
-## Ejecución del contenedor
 
 
 
