@@ -14,6 +14,8 @@ Realizar la instalación de dichas imagenes
 
 ![Hito3_3](img/Hito3_3.png)
 
+![Hito3_3](img/Hito3_13.png)
+
 Aqui comprobaremos que las imagenes se encuentran dentro del contenedor
 
 ![Hito3_4](img/Hito3_4.png)
@@ -57,20 +59,32 @@ Asi quedaria el archivo [Dockerfile](https://github.com/gabrielacampoverde/CC_Ga
 
 ### Archivo docker-compose.yml
 
-Luego pasaremos a la configuración de docker-compose.yml
+Luego pasaremos a la configuración de [docker-compose.yml](https://github.com/gabrielacampoverde/CC_Gabriela/blob/main/ERP-Inventario/docker-compose.yml)
 
 - El servicio php-apache utiliza la imagen oficial de PHP con Apache y expone el puerto 80.
 
 ![Hito3_12](img/Hito3_12.png)
 
+- El servicio pgadmin utiliza la imagen oficial de Postgres, se ha configurado con un usuario y contraseña.
+
+![Hito3_14](img/Hito3_14.png)
+
 - El servicio pgadmin utiliza la imagen oficial de pgAdmin4, se ha configurado con un usuario y contraseña.
 
-![Hito3_13](img/Hito3_13.png)
+![Hito3_15](img/Hito3_15.png)
 
-El archivo final para [docker-compose.yml](https://github.com/gabrielacampoverde/CC_Gabriela/blob/main/ERP-Inventario/docker-compose.yml) es el siguiente.
+Para comprobar la configuración de postgres con pgAdmin ejecutamos el siguiente comando:
 
-![Hito3_0](img/Hito3_1.png)
+![Hito3_15](img/Hito3_16.png)
 
+Luego en un navegador probaremos el localhost:8081, en el cual pondremos el usuario y contraseña que colocamos en el archivo docker-compose.yml
+
+![Hito3_15](img/Hito3_17.png)
+
+![Hito3_0](img/Hito3_18.png)
+
+
+## Ejecución del contenedor
 
 
 
