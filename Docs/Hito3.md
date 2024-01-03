@@ -75,15 +75,30 @@ Luego pasaremos a la configuración de [docker-compose.yml](https://github.com/g
 
 ## Ejecución del contenedor
 
-Para comprobar la configuración Ejecución del contenedor con el siguiente comando:
+Para construir la imagen del contenedor se ejecuta el siguiente comando:
+
+![Hito3_21](img/Hito3_21.png)
+
+Dando el siguiente resultado:
+
+![Hito3_22](img/Hito3_22.png)
+
+Como siguienre paso inicializamos los servicios definidos en el archivo docker-compose.yml, con el siguiente comando:
 
 ![Hito3_16](img/Hito3_16.png)
+
+![Hito3_19](img/Hito3_19.png)
 
 Primero comprobaremos la ejecución de postgres y psAdmin, así que en un navegador probaremos el localhost:8081, en el cual pondremos el usuario y contraseña que colocamos en el archivo docker-compose.yml, como a continuación se ven en las imagenes:
 
 ![Hito3_17](img/Hito3_17.png)
 
 ![Hito3_18](img/Hito3_18.png)
+
+Luego comprobaremos la ejecución de PHP
+
+![Hito3_20](img/Hito3_20.png)
+
 
 
 
