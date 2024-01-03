@@ -99,7 +99,7 @@ Luego comprobaremos la ejecución de PHP
 
 ![Hito3_20](img/Hito3_20.png)
 
-##Docker Hub
+## Docker Hub
 
 Iniciamos creando una imagen del proyecto.
 

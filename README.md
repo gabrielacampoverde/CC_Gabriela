@@ -30,8 +30,10 @@ Tambien se explicara la creación de los primeros test.
 
 Para el [hito 3](https://github.com/gabrielacampoverde/CC_Gabriela/blob/main/Docs/Hito3.md) se realizara la creación de un contenedor para pruebas, el cual se utiliza herramienta de contenerización como Docker. Docker permite empaquetar una aplicación y todas sus dependencias en un contenedor, lo que facilita la creación de entornos de prueba consistentes y reproducibles.
 
- - Elección de un contenedor base.
- - Instalación de paquetes adicionales 
- - Instalación de los módulos/bibliotecas de prueba
+ - Elección de un contenedor base
+ - Configuración del contenedor
+ - Ejecución del contenedor 
+ - Configuración Docker Hub
+ - Uso de registros alternativos y públicos de contenedores 
  
 
