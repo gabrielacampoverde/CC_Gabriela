@@ -115,11 +115,13 @@ De la misma forma podemos visualizar el resultado en el navegador
 
 ## Uso de registros alternativos y públicos de contenedores 
 
- - **Primero: **
+ - **Primero:** Creamos un archivo en el área de trabajo, el cual se encontrara en la ruta [.github/workflows/update-imagen.yml](github/workflows/update-imagen.yml)
 
+ - **Segundo:** Una vez que se creo y configuro el archivo YAML, confirma y empuja los cambios a tu repositorio en GitHub.
 
+ - **Tercero:** Luego revisar la sección "Actions" en el repositorio en GitHub para ver los resultados de la ejecución de las acciones programadas. 
 
-
+![Hito3_26](img/Hito3_26.png)
 
 
 
