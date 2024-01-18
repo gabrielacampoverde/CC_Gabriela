@@ -4,7 +4,7 @@
  
 La elección del sistema de integración continua se baso en las necesidades específicas del proyecto y del desarrollo. Uno de los sistemas más populares y ampliamente utilizados es Jenkins, el cual usaremos para nuestro proyecto.
 
-## Instación de Jenkins
+## Instación y Configuración de Jenkins
 
 La instalación y configuración de Jenkins en Docker puede realizarse siguiendo los pasos a continuación:
 
@@ -32,7 +32,19 @@ Jenkins te pedirá la contraseña inicial, que puedes obtener ejecutando:
 
 ![Hito4_4](img/Hito4_4.png)
 
-## Instación de Jenkins
+c. Luego se instalaron los complementos sugeridos por Jenkins para las funcionalidades adicional.
+
+![Hito4_5](img/Hito4_5.png)
+
+De la mano con la creación de una cuenta.
+
+![Hito4_6](img/Hito4_6.png)
+
+![Hito4_7](img/Hito4_7.png)
+
+
+## 
+
 
 
 

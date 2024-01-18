@@ -38,4 +38,9 @@ Para el [hito 3](https://github.com/gabrielacampoverde/CC_Gabriela/blob/main/Doc
  
 ## Hito 4: Integración continua
 
+Para el [hito 4](https://github.com/gabrielacampoverde/CC_Gabriela/blob/main/Docs/Hito4.md) se realizara la configuración de un sistema de integración continua.
+
+
+
+
 
