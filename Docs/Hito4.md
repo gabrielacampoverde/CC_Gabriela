@@ -1,8 +1,18 @@
 # Hito 4: Integración continua
 
-## Configurar el sistema de integración continua: Jenkins
+## Sistema de Integración Continua
  
-La elección del sistema de integración continua se baso en las necesidades específicas del proyecto y del desarrollo. Uno de los sistemas más populares y ampliamente utilizados es Jenkins, el cual usaremos para nuestro proyecto.
+La elección del sistema de integración continua se baso en las necesidades específicas del proyecto y del desarrollo. Uno de los sistemas más populares y ampliamente utilizados es Jenkins.
+
+### Jenkins 
+
+- Jenkis facilita la integración continua al conectarse con tu sistema de control de versiones como Git y ejecutar automáticamente las pruebas después de cada confirmación.
+
+- Ya que se trabaja con PHP y JavaScript Jenkins puede integrarse con herramientas como Composer para PHP y npm para JavaScript para gestionar las dependencias del proyecto. Esto garantiza que las bibliotecas y dependencias estén actualizadas y se construyan de manera coherente.
+
+- Jenkins puede automatizar el proceso de construcción del proyecto, lo que implica compilar el código fuente, gestionar dependencias y generar artefactos ejecutables
+
+- Jenkins es una herramienta versátil y potente que puede mejorar la eficiencia del desarrollo y la calidad del código como es el proyecto que involucran tecnologías como PHP, HTML, CSS y JavaScript.
 
 ## Instación y Configuración de Jenkins
 
@@ -42,9 +52,32 @@ De la mano con la creación de una cuenta.
 
 ![Hito4_7](img/Hito4_7.png)
 
+## Creación de fichero docker-compose.yaml
 
-## 
+Ingreamos el siguiente comando para abrir un archivo nuevo
 
+![Hito4_8](img/Hito4_8.png)
+
+Luego ingresar lo siguiente
+
+![Hito4_9](img/Hito4_9.png)
+
+Una vez tienes el fichero docker-compose.yaml creado tendremos que levantar el contenedor de jenkins para volver a configurar nuevamente el contenedor.
+
+## Creación del Proyecto en Jenkins
+
+Con Jenkins ejecutandose creamos un nuevo proyecto, y este es el resultado
+
+![Hito4_10](img/Hito4_10.png)
+
+
+Realizamos la configuración con el proyecto en github
+
+![Hito4_11](img/Hito4_11.png)
+
+Y con la siguiente imagen vemos que fue exitosa la configuración
+
+![Hito4_11](img/Hito4_12.png)
 
 
 
