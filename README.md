@@ -40,6 +40,9 @@ Para el [hito 3](https://github.com/gabrielacampoverde/CC_Gabriela/blob/main/Doc
 
 Para el [hito 4](https://github.com/gabrielacampoverde/CC_Gabriela/blob/main/Docs/Hito4.md) se realizara la configuración de un sistema de integración continua.
 
+## Hito 5: Diseño y test de un microservicio
+
+Para el [hito 5](https://github.com/gabrielacampoverde/CC_Gabriela/blob/main/Docs/Hito5.md) se realizara la configuración del framework elegido, el diseño en general del API y uso de logs.
 
 
 
