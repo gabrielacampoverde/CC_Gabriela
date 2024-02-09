@@ -44,6 +44,8 @@ Para el [hito 4](https://github.com/gabrielacampoverde/CC_Gabriela/blob/main/Doc
 
 Para el [hito 5](https://github.com/gabrielacampoverde/CC_Gabriela/blob/main/Docs/Hito5.md) se realizara la configuración del framework elegido, el diseño en general del API y uso de logs.
 
+## Hito 6: Composición de Servicios
 
+Para el [hito 6](https://github.com/gabrielacampoverde/CC_Gabriela/blob/main/Docs/Hito6.md) se realizara la configuración diseñar una infraestructura con Docker Compose.
 
 
