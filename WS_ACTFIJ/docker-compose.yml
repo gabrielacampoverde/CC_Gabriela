@@ -1,0 +1,41 @@
+version : "3.8"
+services:
+  #Definir un servicio llamado php
+  php:
+    build:
+      context: ./
+      # Configuración de la Construcción del Contenedor, especifique que el contenedor se construirá usando un archivo Dockerfile ubicado en el directorio actual (./).
+      dockerfile: Dockerfile
+    container_name: php-apache
+    restart: always
+    #Mapeo el puerto 8080 del host al puerto 80 del contenedor, con esto puedo acceder a la aplicación PHP en el navegador a través de http://localhost:8080.
+    ports:
+      - "8080:80" 
+    volumes:  
+      - .:/var/www/html
+
+  #Definición del Servicio PostgreSQL.
+  postgres:
+    image: postgres
+    restart: always
+    # Mapea el puerto 5432 del host al puerto 5432 del contenedor, permitiendo que se acceda a PostgreSQL desde el host
+    ports:
+      - "5432:5432"
+    # Se configura variables de entorno para la configuración de PostgreSQL, como el nombre de usuario (POSTGRES_user), la contraseña (POSTGRES_PASSWORD), la base de datos (POSTGRES_DB), y el host (DATABASE_HOST).
+    environment:
+      - DATABASE_HOST=127.0.0.1
+      - POSTGRES_user=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=UCSMERP
+
+  #servicio llamado pgadmin que utiliza la imagen oficial de pgAdmin 4.
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL : admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    #Se mapea el puerto 8081 del host al puerto 80 del contenedor de pgAdmin, permitiendo acceder a la interfaz web de pgAdmin desde http://localhost:8081.
+    ports:
+      - "8081:80"
+    depends_on:
+      - postgres
